@@ -2,7 +2,7 @@
   "name": "microparts/microservice-starter-php",
   "description": "Default template for quick writing microservice.",
   "type": "project",
-  "license": "GPLv3",
+  "license": "AGPL-3.0-only",
   "require": {
     "php": ">=7.2",
     "ext-swoole": "*",
