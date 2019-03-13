@@ -69,6 +69,22 @@ $ curl http://0.0.0.0:8080/ | jq .
 }
 ```
 
+## Makefile usage
+
+1. Replace docker-image name in the `Makefile` file
+2. Build docker-image
+```bash
+make image
+```
+3. Run docker image
+```bash
+make run
+```
+4. Or run docker image with custom stage, for example I use `local` stage:
+```bash
+make STAGE=local run
+``` 
+
 ## Notices
 
 * For enabling connection to the PostgreSQL database uncomment the line in `./bootstrap.php` file.
