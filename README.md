@@ -59,7 +59,7 @@ $ curl http://0.0.0.0:8080/ | jq .
 {
   "service": {
     "name": "Microservice starter, PHP",
-    "about": "Default template for quick writing microservice..",
+    "about": "Default template for quick writing microservice.",
     "version": "0.1.0",
     "docs": null,
     "contacts": "ask@teamc.io",
@@ -73,6 +73,12 @@ $ curl http://0.0.0.0:8080/ | jq .
 
 * For enabling connection to the PostgreSQL database uncomment the line in `./bootstrap.php` file.
 * Information about this service located at `./configuration/defaults/service.yaml`.
+
+## Tests
+
+```bash
+vendor/bin/phpunit
+```
 
 ## License
 

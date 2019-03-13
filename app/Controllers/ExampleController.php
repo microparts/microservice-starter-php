@@ -1,12 +1,5 @@
 <?php declare(strict_types=1);
 
-/**
- * Created by Roquie.
- * E-mail: roquie0@gmail.com
- * GitHub: Roquie
- * Date: 26/10/2018
- */
-
 namespace App\Controllers;
 
 use Igni\Application\Http\Controller;
