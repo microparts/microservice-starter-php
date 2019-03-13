@@ -1,0 +1,11 @@
+docker:
+  db:
+    name: postgres
+    user: postgres
+    host: db
+    pwd: postgres
+    migrate:
+      drop: true
+      auto: true
+    seed:
+      auto: true

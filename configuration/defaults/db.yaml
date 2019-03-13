@@ -1,0 +1,12 @@
+defaults:
+  db:
+    name: example
+    user: example
+    host: localhost
+    pwd: ""
+    port: 5432
+    migrate:
+      drop: true
+      auto: true
+    seed:
+      auto: true

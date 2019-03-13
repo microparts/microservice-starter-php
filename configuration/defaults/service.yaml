@@ -1,0 +1,8 @@
+defaults:
+  service:
+    name: "Microservice starter, PHP"
+    about: "Default template for quick writing microservice.."
+    version: "0.1.0"
+    docs: null
+    contacts: "ask@teamc.io"
+    copyright: "teamc.io © 2019"

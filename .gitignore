@@ -1,0 +1,6 @@
+.idea/
+configuration/local/
+generated-classes/
+generated-conf/
+vendor/
+.DS_Store
